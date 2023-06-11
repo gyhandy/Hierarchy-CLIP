@@ -2,7 +2,7 @@
 [CVPR 2023] Improving Zero-shot Generalization and Robustness of Multi-modal Models
 
 > **Improving Zero-shot Generalization and Robustness of Multi-modal Models** <br>
-> [Yunhao Ge*](https://gyhandy.github.io/),  [Jie Ren*](https://jessieren.github.io/)*, [Andrew Gallagher](https://scholar.google.com/citations?hl=en&user=-RFj-kYAAAAJ&view_op=list_works&sortby=pubdate),
+> [Yunhao Ge*](https://gyhandy.github.io/),  [Jie Ren*](https://jessieren.github.io/), [Andrew Gallagher](https://scholar.google.com/citations?hl=en&user=-RFj-kYAAAAJ&view_op=list_works&sortby=pubdate),
 [Yuxiao Wang](https://www.linkedin.com/in/yuxiaow/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/), [Hartwig Adam](https://scholar.google.com/citations?user=fWd88tEAAAAJ&hl=en), 
 [Laurent Itti](https://scholar.google.com/citations?user=xhUvqK8AAAAJ&hl=en), [Balaji Lakshminarayanan](http://www.gatsby.ucl.ac.uk/~balaji/), [Jiaping Zhao](https://scholar.google.com/citations?user=j64_S3EAAAAJ&hl=en) ( * =equal contribution) <br>
 > *IEEE/ CVF International Conference on Computer Vision and Pattern Recognition (CVPR), 2023*
