@@ -41,8 +41,37 @@ git clone https://github.com/gyhandy/Hierarchy-CLIP.git
 cd Hierarchy-CLIP
 ```
 
-### Colab
-We provide a colab code
+- Install required library:
+```bash
+git clone https://github.com/google-research/scenic.git
+cd scenic
+pip install .
+```
+
+### Load dataset:
+  - Most of the dataset we used in paper could be load by tensorflow_datasets, with our provided function:
+  - ```bash
+    dset = load_dataset('imagenet2012')
+    ```
+    Note: please make sure you have registered ImageNet account.
+  - You could also first download ImageNet and then process them with tensorflow_datasets and load them with function:
+    ```bash
+    dset = load_dataset_from(data_dir='YOUR/LOCAL/PATH/imagenet2012', dataset='imagenet2012', split='validation')
+    ```
+    If you want to use other dataset (paper Table 2), e.g., caltech101, Food-101, Flower102, Cifar-100, please use/rewrite our function: load_dataset_info()
+  - ```bash
+    # caltech101
+    caltech101_dset, caltech101_dset_info = load_dataset_info('caltech101', split='test')
+    ```
+###  Download WordNet hierarchy information to build top-down and bottom-up prompt augmentation: 
+
+- The wordnet hierarchy is based on Github repo: https://github.com/niharikajainn/imagenet-ancestors-descendants
+
+- We already put them into imagenet-ancestors-descendants, we also provide imagenet_label_to_wordnet_synset.txt
+
+
+### Code
+We provide a colab code, all details are in the following:
 ```bash
 Hierarcy_Clip.ipynb
 ```
